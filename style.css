@@ -1,0 +1,108 @@
+html{
+    background-image: url("background.jpg");
+}
+body {
+    background-color: rgba(49,49,49,0.60);
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+#background_body {
+    background-color: rgba(49,49,49,0.60);
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 80vw;
+}
+
+#about_block {
+    width: 100%;
+    height: 30%;
+    margin-bottom: -1px;
+    border-bottom: solid 1px #191919;
+}
+#about_avatar {
+    width: 30%;
+    height: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about_avatar > img {
+    border: solid 2px #41649B;
+    border-radius: 10px;
+}
+
+#about_text {
+    width: 70%;
+    height: 100%;
+    float: right;
+}
+#about_text a{
+    text-decoration: none;
+    color: gray;
+}
+#about_text a:hover{
+    text-decoration: none;
+    color: #41649B;
+}
+#links_list {
+    height: 70%-10px;
+    padding-top: 10px;
+}
+
+.divTab{
+    display: table;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 2px solid #4353CF;
+}
+.divRow{
+    display: table-row;
+    text-align: center;
+}
+.divRow a{
+    text-decoration: none;
+    color: gray;
+}
+.divRow a:hover{
+    text-decoration: none;
+    color: #41649B;
+}
+
+.divCell{
+    display: table-cell;
+}
+.divRow_btn{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(70,70,70,0.20);
+}
+/*.divRow_btn:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #4353CF;
+    border-radius: 10px;
+    margin-bottom: -2px;
+    background-color: rgba(70,70,70,0.60);
+}*/
+.divRow_links{
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+    /*height: 0px;*/
+}
+.divRow_links > div{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
