@@ -1,5 +1,11 @@
+:root{
+    --text-size: 20px;
+    --text-size-min: 18px;
+}
+
 html{
     background-image: url("background.jpg");
+    font-size: var(--text-size);
 }
 body {
     background-color: rgba(49,49,49,0.60);
@@ -22,7 +28,7 @@ body {
 
 #about_block {
     width: 100%;
-    height: 30%;
+    height: 35%;
     margin-bottom: -1px;
     border-bottom: solid 1px #191919;
 }
@@ -83,8 +89,10 @@ body {
     display: table-cell;
 }
 .divRow_btn{
-    height: 5vh;
-    display: flex;
+    min-height: 5vh;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
     justify-content: center;
     align-items: center;
     background-color: rgba(70,70,70,0.20);
@@ -105,4 +113,11 @@ body {
 .divRow_links > div{
     margin-top: 5px;
     margin-bottom: 5px;
+}
+.div_header{
+    margin-bottom: 10px;
+}
+.text_size_min{
+    font-size: var(--text-size-min);
+    color: #D4D4D4;
 }
